@@ -13,7 +13,7 @@ class Landing extends React.Component{
             <Button title='Start Searching'
               block={true}
               style={styles.buttonStyle}
-              onPress={()=>this.props.switchScreen("screen")}
+              onPress={()=>this.props.switchScreen("search")}
             >
               <Text style={styles.buttonText}>Start Searching</Text>
             </Button>
